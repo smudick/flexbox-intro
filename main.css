@@ -43,26 +43,32 @@ ul a:hover {
   background-color: lightgray;
 }
 
-
 /****************** DOGS **********************/
 
 .dogs {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .dogs img {
-    width: 200px;
-    margin: 25px;
+  width: 200px;
+  margin: 25px;
 }
 
+/****************** CATS **********************/
 
+.cats {
+  display: flex;
+  flex-flow: row center;
+  justify-content: center;
+}
 
-
-
-
-
-
-
-
-
+.cats img {
+  width: 250px;
+  height: 250px;
+  margin: 25px;
+}
+.scared-cat {
+  display: flex;
+  order: -1;
+}
