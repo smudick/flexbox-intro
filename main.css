@@ -64,11 +64,20 @@ ul a:hover {
 }
 
 .cats img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 25px;
 }
 .scared-cat {
   display: flex;
+  align-items: flex-start;
   order: -1;
+}
+
+/****************** FOOTER **********************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 20px;
 }
