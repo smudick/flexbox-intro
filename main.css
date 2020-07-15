@@ -42,6 +42,11 @@ ul a {
 ul a:hover {
   background-color: lightgray;
 }
+/****************** HEAD **********************/
+
+h1 {
+  padding: 1em;
+}
 
 /****************** DOGS **********************/
 
@@ -59,19 +64,23 @@ ul a:hover {
 
 .cats {
   display: flex;
-  flex-flow: row center;
-  justify-content: center;
+  flex-direction: column-reverse;
 }
 
 .cats img {
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   margin: 25px;
+  border-radius: 10px;
+}
+
+.othercats {
+   display: flex;
+   justify-content: space-around;
 }
 .scared-cat {
-  display: flex;
-  align-items: flex-start;
-  order: -1;
+  align-self: center;
+
 }
 
 /****************** FOOTER **********************/
@@ -80,4 +89,5 @@ footer {
   position: absolute;
   bottom: 0;
   padding: 0 0 20px;
+  width: 100%;
 }
