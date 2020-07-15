@@ -1,1 +1,1 @@
-console.log("flexin and boxin")
+console.log("flexin n boxin")
